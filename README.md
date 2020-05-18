@@ -18,4 +18,5 @@ You can check his unique colorful One Page portfolio that animates as you scroll
 `yarn test`
 
 ##Customization
+
 It is developed using [Webpack](https://webpack.js.org/guides/getting-started/) module bundler. 

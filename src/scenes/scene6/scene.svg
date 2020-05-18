@@ -167,16 +167,18 @@
 <!--		</g>-->
 <!--		<text transform="matrix(1 0 0 1 1085.4595 88.8281)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="23.8652px">is powered by:</text>-->
 <!--	</g>-->
-	<g id="heroku">
-		<g>
-			<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#2BACB5" points="1253.1,122.4 1269.1,150.7 1237.2,150.7 			"/>
-			<path fill-rule="evenodd" clip-rule="evenodd" fill="#2BACB5" d="M1287.7,144.1h12.1V142h-9l8.9-12.8v-1.8h-11.8v2.1h8.8
+
+	<g id="heroku" transform="matrix(1, 0, 0, 1, 0, -54)">
+  <g>
+    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#2BACB5" points="1253.1,122.4 1269.1,150.7 1237.2,150.7"/>
+	  <path fill-rule="evenodd" clip-rule="evenodd" fill="#2BACB5" d="M1287.7,144.1h12.1V142h-9l8.9-12.8v-1.8h-11.8v2.1h8.8
 				l-8.9,12.8V144.1L1287.7,144.1z M1312.4,144.1h10.8V142h-8.4v-5.4h7.3v-2.1h-7.3v-5h8.4v-2.1h-10.8L1312.4,144.1L1312.4,144.1z
 				 M1336.2,144.1h10.6V142h-4v-12.5h4v-2.1h-10.6v2.1h4.1V142h-4.1V144.1z M1364.2,144.1h2.4v-14.6h5.7v-2.1h-13.7v2.1h5.6V144.1
 				L1364.2,144.1z"/>
-		</g>
-		<text transform="matrix(1 0 0 1 1085.4595 145.1913)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="23.8652px">is hosted on:</text>
-	</g>
+  </g>
+		<text transform="matrix(1 0 0 1 1085.4595 145.1913)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="23.8652px" style="white-space: pre;">is hosted on:</text>
+</g>
+
 	<text transform="matrix(1 0 0 1 1085.4603 42.7616)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="47.7304px">This website:</text>
 	<g id="medium">
 		<text transform="matrix(1 0 0 1 1132.8278 -84.3644)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="23.8652px">Medium</text>
@@ -244,7 +246,7 @@
 			c0-0.5,0.3-1.1,0.7-1.5c0.4-0.4,0.9-0.7,1.5-0.7h19c0.5,0,1.1,0.3,1.5,0.7C1113.1-244.9,1113.3-244.5,1113.3-243.8z"/>
 	</g>
 	<text transform="matrix(1 0 0 1 1085.4603 -318.587)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="47.7304px">To stay connected:</text>
-	<text transform="matrix(1 0 0 1 1085.46 835)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="65.2522px">Bye!</text>
+	<text transform="matrix(1 0 0 1 1085.46 835)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="80.2522px">Bye!</text>
 	<g id="twitter">
 		<text transform="matrix(1 0 0 1 1135.9325 -272.895)" fill="#2BACB5" font-family="'Roboto-Thin'" font-size="23.8652px">@nesrine_sghaier</text>
 		<path fill="#2BACB5" d="M1096.6-268.3c10.7,0,16.6-8.9,16.6-16.6c0-0.3,0-0.5,0-0.8c1.1-0.8,2.1-1.8,2.9-3
