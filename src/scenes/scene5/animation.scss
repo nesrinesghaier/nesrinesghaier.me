@@ -178,20 +178,20 @@ $start: $scene_05_begin;
   }
 
   #clients {
-    #luiss {
-      -st-animation-name: luiss;
+    #vneuron {
+      -st-animation-name: vneuron;
     }
-    #algida {
-      -st-animation-name: algida;
+    #makerlab {
+      -st-animation-name: makerlab;
     }
-    #unilever {
-      -st-animation-name: unilever;
+    #sofia {
+      -st-animation-name: sofia;
     }
     #eonics {
       -st-animation-name: eonics;
     }
-    #hashcode {
-      -st-animation-name: hashcode;
+    #googlejam {
+      -st-animation-name: googlejam;
     }
     #equitalia {
       -st-animation-name: equitalia;
@@ -208,11 +208,11 @@ $start: $scene_05_begin;
     #sapienza {
       -st-animation-name: sapienza;
     }
-    #wind {
-      -st-animation-name: wind;
+    #sfaxcpc {
+      -st-animation-name: sfaxcpc;
     }
   }
-  @-st-keyframes unilever {
+  @-st-keyframes sofia {
     #{$start + 100} {
       transform: translate(-3000px, -8000px) scale(16);
       opacity: 0;
@@ -223,7 +223,7 @@ $start: $scene_05_begin;
     }
   }
 
-  @-st-keyframes luiss {
+  @-st-keyframes vneuron {
     #{$start + 140} {
       transform: translate(0px, 1000px);
       opacity: 0;
@@ -234,7 +234,7 @@ $start: $scene_05_begin;
     }
   }
 
-  @-st-keyframes algida {
+  @-st-keyframes makerlab {
     #{$start + 260} {
       transform: translate(-3000px, -8000px) scale(16);
       opacity: 0;
@@ -246,7 +246,7 @@ $start: $scene_05_begin;
   }
 
   @-st-keyframes eonics {
-    #{$start + 350} {
+    #{$start + 300} {
       transform: translate(-3000px, -8000px) scale(16) rotate(-9.3);
       opacity: 0;
     }
@@ -256,7 +256,7 @@ $start: $scene_05_begin;
     }
   }
 
-  @-st-keyframes hashcode {
+  @-st-keyframes googlejam {
     #{$start + 120} {
       transform: translate(-2600px, -8000px) scale(1) rotate(7.2);
       opacity: 0;
@@ -267,62 +267,7 @@ $start: $scene_05_begin;
     }
   }
 
-  @-st-keyframes equitalia {
-    #{$start + 560} {
-      transform: translate(-4700px, -8000px) scale(16);
-      opacity: 0;
-    }
-    #{$start + 610} {
-      transform: translate(0px, 0px) scale(1);
-      opacity: 1;
-    }
-  }
-
-  @-st-keyframes infostrada {
-    #{$start + 700} {
-      transform: translate(-4700px, -8000px) scale(16);
-      opacity: 0;
-    }
-    #{$start + 750} {
-      transform: translate(0px, 0px) scale(1);
-      opacity: 1;
-    }
-  }
-
-  @-st-keyframes nintendo {
-    #{$start + 770} {
-      transform: translate(-4700px, -8000px) scale(16);
-      opacity: 0;
-    }
-    #{$start + 820} {
-      transform: translate(0px, 0px) scale(1);
-      opacity: 1;
-    }
-  }
-
-  @-st-keyframes peroni {
-    #{$start + 850} {
-      transform: translate(-4700px, -8000px) scale(16);
-      opacity: 0;
-    }
-    #{$start + 900} {
-      transform: translate(0px, 0px) scale(1);
-      opacity: 1;
-    }
-  }
-
-  @-st-keyframes sapienza {
-    #{$start + 950} {
-      transform: translate(-4700px, -8000px) scale(16);
-      opacity: 0;
-    }
-    #{$start + 1000} {
-      transform: translate(0px, 0px) scale(1);
-      opacity: 1;
-    }
-  }
-
-  @-st-keyframes wind {
+  @-st-keyframes sfaxcpc {
     #{$start + 200} {
       transform: translate(-4700px, -8000px) scale(10);
       opacity: 0;

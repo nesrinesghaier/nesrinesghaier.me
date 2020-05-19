@@ -18,7 +18,36 @@ export default {
   init(site) {
     document.querySelector('[data-scene="scene5"]').innerHTML = sceneHtml;
     document.querySelector('[data-scene="scene5"] .svg').innerHTML = sceneSvg;
-
+    document.querySelector("#cv").addEventListener("click", () => {
+      window.open(
+        "https://pdfhost.io/v/cI0DWkK7A_Nesrine_SGHAIER_CV.pdf",
+        "_blank"
+      );
+    });
+    document.querySelector("#sfaxcpc").addEventListener("click", () => {
+      window.open(
+        "https://pdfhost.io/v/bKzzXvm6H_Third_PlaceContestant362826pdf.pdf",
+        "_blank"
+      );
+    });
+    document.querySelector("#googlejam").addEventListener("click", () => {
+      window.open("https://pdfhost.io/v/boyn7TLLP_gj2019pdf.pdf", "_blank");
+    });
+    document.querySelector("#vneuron").addEventListener("click", () => {
+      window.open("https://www.vneuron.com/", "_blank");
+    });
+    document.querySelector("#sofia").addEventListener("click", () => {
+      window.open(
+        "https://www.linkedin.com/company/sofia-technologies-tunisia/",
+        "_blank"
+      );
+    });
+    document.querySelector("#eonics").addEventListener("click", () => {
+      window.open("https://eonics.nl/", "_blank");
+    });
+    document.querySelector("#makerlab").addEventListener("click", () => {
+      window.open("https://www.makerlab.tn/", "_blank");
+    });
     this.addVideoPlayer(site);
 
     this.getPhoneDimensionsInAHackyWayCauseFirefoxDoesNotWork();
