@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/nesrinesghaier/nesrinesghaier.me.svg?branch=master)](https://travis-ci.com/nesrinesghaier/nesrinesghaier.me)
 
 # nesrinesghaier.me
 This repository is based on [albinotonnina/albinotonnina.com](https://github.com/albinotonnina/albinotonnina.com) personal website.
