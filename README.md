@@ -3,8 +3,9 @@
 
 # nesrinesghaier.me
 This repository is based on [albinotonnina/albinotonnina.com](https://github.com/albinotonnina/albinotonnina.com) personal website.
-In fact, it is one of the best personal websites that inspired me.
-You can check his unique colorful One Page portfolio that animates as you scroll down and create your own.   
+In fact, it is one of the **best** personal websites that inspired me.
+You can check his unique colorful One Page portfolio that animates as you scroll down and create your own.
+You can check this [repo](https://github.com/emmabostian/developer-portfolios) :octocat: too for more personal portfolio ideas.
 
 ## Install
 `yarn`
@@ -18,6 +19,12 @@ You can check his unique colorful One Page portfolio that animates as you scroll
 ## Test
 `yarn test`
 
-##Customization
+It uses [Jest](https://jestjs.io/) for testing. 
+## Customization
 
-It is developed using [Webpack](https://webpack.js.org/guides/getting-started/) module bundler. 
+It is a node project developed using [Webpack](https://webpack.js.org/guides/getting-started/) module bundler. For any customization, you will need any SVG editor tool
+like [Clker](http://www.clker.com/inc/svgedit/svg-editor.html) or [Boxy SVG](https://boxy-svg.com/app) for your personal scenes. You can use Adobe Illustrator
+otherwise then convert them to SVG :unamused:. 
+It is mainly structured into 6 scenes where each of them describe a subject:
+introduction, work, skills and contact info. You can eventually add as many scenes as you want according to your needs and import them in
+the `getScenes.js` file. 
