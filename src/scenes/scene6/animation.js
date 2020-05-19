@@ -80,7 +80,7 @@ export default {
 
     document.querySelector("#githubsite").addEventListener("click", () => {
       window.open(
-        "https://github.com/nesrinesghaier",
+        "https://github.com/nesrinesghaier/nesrinesghaier.me",
         "_blank"
       );
     });

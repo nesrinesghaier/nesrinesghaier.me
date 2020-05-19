@@ -20,5 +20,10 @@ export default {
     document.querySelector("#book3").addEventListener("click", () => {
       window.open("https://www.agathachristie.com/stories/third-girl");
     });
+    document.querySelector("#book5").addEventListener("click", () => {
+      window.open(
+        "http://www.scottsdevelopers.com/dont-make-me-think-revisited.pdf"
+      );
+    });
   },
 };

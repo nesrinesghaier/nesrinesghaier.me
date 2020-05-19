@@ -141,11 +141,11 @@
   @-st-keyframes notebook1 {
     #{$start3} {
       opacity: 0;
-      transform: translate(-20px, -20px);
+      transform: translate(30, -210) rotate(-3);
     }
     #{$start3 + 50} {
       opacity: 1;
-      transform: translate(0px, 0px);
+      transform: translate(50, -190.8734) rotate(-3);
     }
   }
 
