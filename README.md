@@ -3,7 +3,11 @@
 
 # nesrinesghaier.me
 
+<p align="center">
+
 <img src="https://github.com/nesrinesghaier/nesrinesghaier.me/blob/master/one-page.png">
+
+</p>
 
 This repository is based on [albinotonnina/albinotonnina.com](https://github.com/albinotonnina/albinotonnina.com) personal website.
 In fact, it is one of the **best** personal websites that inspired me.
