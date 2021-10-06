@@ -180,36 +180,31 @@ $start: $scene_05_begin;
   #clients {
     #vneuron {
       -st-animation-name: vneuron;
+      cursor: pointer;
     }
     #makerlab {
       -st-animation-name: makerlab;
+      cursor: pointer;
     }
     #sofia {
       -st-animation-name: sofia;
+      cursor: pointer;
     }
     #eonics {
       -st-animation-name: eonics;
+      cursor: pointer;
+    }
+    #rabobank {
+      -st-animation-name: rabobank;
+      cursor: pointer;
     }
     #googlejam {
       -st-animation-name: googlejam;
-    }
-    #equitalia {
-      -st-animation-name: equitalia;
-    }
-    #infostrada {
-      -st-animation-name: infostrada;
-    }
-    #nintendo {
-      -st-animation-name: nintendo;
-    }
-    #peroni {
-      -st-animation-name: peroni;
-    }
-    #sapienza {
-      -st-animation-name: sapienza;
+      cursor: pointer;
     }
     #sfaxcpc {
       -st-animation-name: sfaxcpc;
+      cursor: pointer;
     }
   }
   @-st-keyframes sofia {
@@ -252,6 +247,17 @@ $start: $scene_05_begin;
     }
     #{$start + 450} {
       transform: translate(-13.6981, 100.055) scale(1) rotate(-9.3);
+      opacity: 1;
+    }
+  }
+
+  @-st-keyframes rabobank {
+    #{$start + 300} {
+      transform: translate(-2400px, -8000px) scale(16);
+      opacity: 0;
+    }
+    #{$start + 450} {
+      transform: translate(150.72, 150.055) scale(1);
       opacity: 1;
     }
   }
