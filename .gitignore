@@ -1,4 +1,5 @@
 build
 node_modules
 .idea
+.vscode/*
 src/scenes/.sass-cache

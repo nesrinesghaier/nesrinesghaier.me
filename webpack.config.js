@@ -3,10 +3,12 @@ const path = require("path");
 const StringReplacePlugin = require("string-replace-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+const current_mode = process.env.NODE_ENV == 'production' ? 'production' : 'development';
 
 module.exports = () => {
   return {
     devtool: "source-map",
+    mode: current_mode,
     devServer: {
       host: "0.0.0.0",
     },
@@ -40,12 +42,7 @@ module.exports = () => {
         {
           test: /\.(sa|sc|c)ss$/,
           use: [
-            {
-              loader: MiniCssExtractPlugin.loader,
-              options: {
-                hmr: process.env.NODE_ENV === "development",
-              },
-            },
+            MiniCssExtractPlugin.loader,
             "css-loader",
             "sass-loader",
           ],
