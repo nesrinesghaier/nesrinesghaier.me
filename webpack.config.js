@@ -53,7 +53,7 @@ module.exports = () => {
           use: ["html-loader"],
         },
         {
-          test: /\.(gif|png|jpe?g)$/i,
+          test: /\.(gif|png|jpg|jpe?g)$/i,
           use: [
             {
               loader: "file-loader",

@@ -48,6 +48,9 @@ export default {
     document.querySelector('#rabobank').addEventListener('click', () => {
       window.open('https://www.rabobank.nl/', '_blank');
     });
+    document.querySelector('#ah').addEventListener('click', () => {
+      window.open('https://www.ah.nl/', '_blank');
+    });
     document.querySelector('#makerlab').addEventListener('click', () => {
       window.open('https://www.makerlab.tn/', '_blank');
     });

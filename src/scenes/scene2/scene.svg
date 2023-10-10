@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-     y="0px"
-     viewBox="496 -368 1024 768" enable-background="new 496 -368 1024 768" xml:space="preserve">
+<svg version="1.1" id="svg2" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	y="0px"
+	viewBox="496 -368 1024 768" enable-background="new 496 -368 1024 768" xml:space="preserve">
 <g id="sky">
 	<rect x="-6918.9" y="-7417.1" fill="#3498DB" stroke="#000000" stroke-miterlimit="10" width="15687.9"
           height="14889"/>
@@ -613,13 +614,13 @@ l-2 -493 200 0 201 0 -3 493 c-4 479 -4 493 -25 543 -71 167 -134 218 -222
 			S-80.8-992.5-80.8-980z"/>
 	</g>
 </g>
-    <g id="text3">
-	<text transform="matrix(1 0 0 1 817.4995 -310.6447)" fill="#F5ECD9" font-family="'Roboto-Thin'" font-size="36px">to Netherlands</text>
+<g id="text3">
+	<text transform="matrix(1 0 0 1 750 -310.5982)" fill="#F5ECD9" font-family="'Roboto-Thin'" font-size="36px">to The Netherlands</text>
 </g>
-    <g id="text2">
-	<text transform="matrix(1 0 0 1 817.7998 -311.5982)" fill="#FFFFFF" font-family="'Roboto-Thin'" font-size="36px">from Tunisia</text>
+<g id="text2">
+	<text transform="matrix(1 0 0 1 750 -310.5982)" fill="#F5ECD9" font-family="'Roboto-Thin'" font-size="36px">from Tunisia</text>
 </g>
-    <text id="text1" transform="matrix(1 0 0 1 557.5032 -311.6446)" fill="#FFFFFF" font-family="'Roboto-Thin'"
+    <text id="text1" transform="matrix(1 0 0 1 490 -310.5982)" fill="#FFFFFF" font-family="'Roboto-Thin'"
           font-size="36px">In 2019 I moved</text>
     <g id="planebig">
 	<g>
