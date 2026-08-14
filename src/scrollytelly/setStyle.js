@@ -10,7 +10,7 @@ const setStyle = (el, propS, val) => {
   // Make sure z-index gets a <integer>.
   // This is the only <integer> case we need to handle.
   if (prop === "zIndex") {
-    if (Number.isNaN(Number(val))) {
+    if (Math.isNaN(val)) {
       // If it's not a number, don't touch it.
       // It could for example be "auto" (#351).
       style[prop] = val;
