@@ -17,11 +17,11 @@
     -st-animation-name: wire3;
   }
 
-  @-st-keyframes wire3 {
-    #{$start + 195} {
+  @-st-frames wire3 {
+    [data-frame="#{$start + 195}"] {
       stroke-dashoffset: 6000;
     }
-    #{$start + 2120} {
+    [data-frame="#{$start + 2120}"] {
       stroke-dashoffset: 0;
     }
   }
@@ -30,12 +30,12 @@
     -st-animation-name: s2-title;
   }
 
-  @-st-keyframes s2-title {
-    #{$start + 240} {
+  @-st-frames s2-title {
+    [data-frame="#{$start + 240}"] {
       opacity: 0;
       transform#{"[swing]"}: translate(0px, 0px);
     }
-    #{$start + 270} {
+    [data-frame="#{$start + 270}"] {
       opacity: 1;
       transform#{"[swing]"}: translate(0px, 20px);
     }
@@ -54,12 +54,12 @@
     -st-animation-name: tblock1;
   }
 
-  @-st-keyframes tblock1 {
-    #{$start + 540} {
+  @-st-frames tblock1 {
+    [data-frame="#{$start + 540}"] {
       opacity: 0;
       transform#{"[swing]"}: translate(-30px, 0);
     }
-    #{$start + 560} {
+    [data-frame="#{$start + 560}"] {
       opacity: 1;
       transform#{"[swing]"}: translate(0, 0);
     }
@@ -69,12 +69,12 @@
     -st-animation-name: tblock2;
   }
 
-  @-st-keyframes tblock2 {
-    #{$start + 740} {
+  @-st-frames tblock2 {
+    [data-frame="#{$start + 740}"] {
       opacity: 0;
       transform#{"[swing]"}: translate(-30px, 0);
     }
-    #{$start + 760} {
+    [data-frame="#{$start + 760}"] {
       opacity: 1;
       transform#{"[swing]"}: translate(0, 0);
     }
@@ -84,12 +84,12 @@
     -st-animation-name: tblock3;
   }
 
-  @-st-keyframes tblock3 {
-    #{$start + 800} {
+  @-st-frames tblock3 {
+    [data-frame="#{$start + 800}"] {
       opacity: 0;
       transform#{"[swing]"}: translate(-20px, 0);
     }
-    #{$start + 820} {
+    [data-frame="#{$start + 820}"] {
       opacity: 1;
       transform#{"[swing]"}: translate(0, 0);
     }
@@ -199,204 +199,204 @@
   }
   $imac_animation: $scene_03_begin + 30;
 
-  //@-st-keyframes imac {}
+  //@-st-frames imac {}
 
-  @-st-keyframes gridbg {
-    #{$imac_animation + 120} {
+  @-st-frames gridbg {
+    [data-frame="#{$imac_animation + 120}"] {
       transform: scale(1, 0);
       opacity: 0;
     }
-    #{$imac_animation + 150} {
+    [data-frame="#{$imac_animation + 150}"] {
       transform: scale(1, 1);
       opacity: 1;
     }
   }
 
-  @-st-keyframes grid1 {
-    #{$imac_animation + 10} {
+  @-st-frames grid1 {
+    [data-frame="#{$imac_animation + 10}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 30} {
+    [data-frame="#{$imac_animation + 30}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid2 {
-    #{$imac_animation + 20} {
+  @-st-frames grid2 {
+    [data-frame="#{$imac_animation + 20}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 40} {
+    [data-frame="#{$imac_animation + 40}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid3 {
-    #{$imac_animation + 30} {
+  @-st-frames grid3 {
+    [data-frame="#{$imac_animation + 30}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 50} {
+    [data-frame="#{$imac_animation + 50}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid4 {
-    #{$imac_animation + 40} {
+  @-st-frames grid4 {
+    [data-frame="#{$imac_animation + 40}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 60} {
+    [data-frame="#{$imac_animation + 60}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid5 {
-    #{$imac_animation + 50} {
+  @-st-frames grid5 {
+    [data-frame="#{$imac_animation + 50}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 70} {
+    [data-frame="#{$imac_animation + 70}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid6 {
-    #{$imac_animation + 60} {
+  @-st-frames grid6 {
+    [data-frame="#{$imac_animation + 60}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 80} {
+    [data-frame="#{$imac_animation + 80}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid7 {
-    #{$imac_animation + 70} {
+  @-st-frames grid7 {
+    [data-frame="#{$imac_animation + 70}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 90} {
+    [data-frame="#{$imac_animation + 90}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid8 {
-    #{$imac_animation + 80} {
+  @-st-frames grid8 {
+    [data-frame="#{$imac_animation + 80}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 100} {
+    [data-frame="#{$imac_animation + 100}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid9 {
-    #{$imac_animation + 90} {
+  @-st-frames grid9 {
+    [data-frame="#{$imac_animation + 90}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 110} {
+    [data-frame="#{$imac_animation + 110}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid10 {
-    #{$imac_animation + 100} {
+  @-st-frames grid10 {
+    [data-frame="#{$imac_animation + 100}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 120} {
+    [data-frame="#{$imac_animation + 120}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes grid11 {
-    #{$imac_animation + 110} {
+  @-st-frames grid11 {
+    [data-frame="#{$imac_animation + 110}"] {
       transform: scale(1, 0);
     }
-    #{$imac_animation + 130} {
+    [data-frame="#{$imac_animation + 130}"] {
       transform: scale(1, 1);
     }
   }
 
-  @-st-keyframes s1-f18 {
-    #{$imac_animation + 140} {
+  @-st-frames s1-f18 {
+    [data-frame="#{$imac_animation + 140}"] {
       display: none;
     }
-    #{$imac_animation + 160} {
+    [data-frame="#{$imac_animation + 160}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes b4 {
-    #{$imac_animation + 150} {
+  @-st-frames b4 {
+    [data-frame="#{$imac_animation + 150}"] {
       display: none;
     }
-    #{$imac_animation + 170} {
+    [data-frame="#{$imac_animation + 170}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s1-f13 {
-    #{$imac_animation + 160} {
+  @-st-frames s1-f13 {
+    [data-frame="#{$imac_animation + 160}"] {
       display: none;
     }
-    #{$imac_animation + 180} {
+    [data-frame="#{$imac_animation + 180}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes b3 {
-    #{$imac_animation + 170} {
+  @-st-frames b3 {
+    [data-frame="#{$imac_animation + 170}"] {
       display: none;
     }
-    #{$imac_animation + 190} {
+    [data-frame="#{$imac_animation + 190}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s1-f8 {
-    #{$imac_animation + 180} {
+  @-st-frames s1-f8 {
+    [data-frame="#{$imac_animation + 180}"] {
       display: none;
     }
-    #{$imac_animation + 200} {
+    [data-frame="#{$imac_animation + 200}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes b2 {
-    #{$imac_animation + 190} {
+  @-st-frames b2 {
+    [data-frame="#{$imac_animation + 190}"] {
       display: none;
     }
-    #{$imac_animation + 210} {
+    [data-frame="#{$imac_animation + 210}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes b1 {
-    #{$imac_animation + 200} {
+  @-st-frames b1 {
+    [data-frame="#{$imac_animation + 200}"] {
       display: none;
     }
-    #{$imac_animation + 220} {
+    [data-frame="#{$imac_animation + 220}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s1-f1 {
-    #{$imac_animation + 210} {
+  @-st-frames s1-f1 {
+    [data-frame="#{$imac_animation + 210}"] {
       display: none;
     }
-    #{$imac_animation + 230} {
+    [data-frame="#{$imac_animation + 230}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s1-bg2 {
-    #{$imac_animation + 220} {
+  @-st-frames s1-bg2 {
+    [data-frame="#{$imac_animation + 220}"] {
       display: none;
     }
-    #{$imac_animation + 240} {
+    [data-frame="#{$imac_animation + 240}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s1-bg1 {
-    #{$imac_animation + 250} {
+  @-st-frames s1-bg1 {
+    [data-frame="#{$imac_animation + 250}"] {
       opacity: 0;
     }
-    #{$imac_animation + 270} {
+    [data-frame="#{$imac_animation + 270}"] {
       opacity: 1;
     }
   }
@@ -460,130 +460,130 @@
   }
   $ipad_animation: $scene_03_begin + 400;
 
-  @-st-keyframes ipad {
-    #{$ipad_animation - 30} {
+  @-st-frames ipad {
+    [data-frame="#{$ipad_animation - 30}"] {
       opacity: 0;
       transform#{"[swing]"}: translate(10px, 0);
     }
-    #{$ipad_animation} {
+    [data-frame="#{$ipad_animation}"] {
       opacity: 1;
       transform#{"[swing]"}: translate(0px, 0);
     }
   }
 
-  @-st-keyframes s2-bg1 {
-    #{$ipad_animation} {
+  @-st-frames s2-bg1 {
+    [data-frame="#{$ipad_animation}"] {
       display: none;
     }
-    #{$ipad_animation + 20} {
+    [data-frame="#{$ipad_animation + 20}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g1 {
-    #{$ipad_animation + 80} {
+  @-st-frames s2-g1 {
+    [data-frame="#{$ipad_animation + 80}"] {
       display: none;
     }
-    #{$ipad_animation + 100} {
+    [data-frame="#{$ipad_animation + 100}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g2g {
-    #{$ipad_animation + 90} {
+  @-st-frames s2-g2g {
+    [data-frame="#{$ipad_animation + 90}"] {
       display: none;
     }
-    #{$ipad_animation + 110} {
+    [data-frame="#{$ipad_animation + 110}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g6g {
-    #{$ipad_animation + 100} {
+  @-st-frames s2-g6g {
+    [data-frame="#{$ipad_animation + 100}"] {
       display: none;
     }
-    #{$ipad_animation + 120} {
+    [data-frame="#{$ipad_animation + 120}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g10 {
-    #{$ipad_animation + 110} {
+  @-st-frames s2-g10 {
+    [data-frame="#{$ipad_animation + 110}"] {
       display: none;
     }
-    #{$ipad_animation + 130} {
+    [data-frame="#{$ipad_animation + 130}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g11g {
-    #{$ipad_animation + 120} {
+  @-st-frames s2-g11g {
+    [data-frame="#{$ipad_animation + 120}"] {
       display: none;
     }
-    #{$ipad_animation + 140} {
+    [data-frame="#{$ipad_animation + 140}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g15 {
-    #{$ipad_animation + 130} {
+  @-st-frames s2-g15 {
+    [data-frame="#{$ipad_animation + 130}"] {
       display: none;
     }
-    #{$ipad_animation + 150} {
+    [data-frame="#{$ipad_animation + 150}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g16 {
-    #{$ipad_animation + 140} {
+  @-st-frames s2-g16 {
+    [data-frame="#{$ipad_animation + 140}"] {
       display: none;
     }
-    #{$ipad_animation + 160} {
+    [data-frame="#{$ipad_animation + 160}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g17 {
-    #{$ipad_animation + 150} {
+  @-st-frames s2-g17 {
+    [data-frame="#{$ipad_animation + 150}"] {
       display: none;
     }
-    #{$ipad_animation + 170} {
+    [data-frame="#{$ipad_animation + 170}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g18 {
-    #{$ipad_animation + 160} {
+  @-st-frames s2-g18 {
+    [data-frame="#{$ipad_animation + 160}"] {
       display: none;
     }
-    #{$ipad_animation + 180} {
+    [data-frame="#{$ipad_animation + 180}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g19 {
-    #{$ipad_animation + 170} {
+  @-st-frames s2-g19 {
+    [data-frame="#{$ipad_animation + 170}"] {
       display: none;
     }
-    #{$ipad_animation + 190} {
+    [data-frame="#{$ipad_animation + 190}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g20 {
-    #{$ipad_animation + 180} {
+  @-st-frames s2-g20 {
+    [data-frame="#{$ipad_animation + 180}"] {
       display: none;
     }
-    #{$ipad_animation + 200} {
+    [data-frame="#{$ipad_animation + 200}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s2-g21 {
-    #{$ipad_animation + 190} {
+  @-st-frames s2-g21 {
+    [data-frame="#{$ipad_animation + 190}"] {
       display: none;
     }
-    #{$ipad_animation + 210} {
+    [data-frame="#{$ipad_animation + 210}"] {
       display: inline;
     }
   }
@@ -643,121 +643,121 @@
   }
   $iphone_animation: $scene_03_begin + 350;
 
-  @-st-keyframes iphone {
-    #{$iphone_animation - 30} {
+  @-st-frames iphone {
+    [data-frame="#{$iphone_animation - 30}"] {
       transform#{"[swing]"}: translate(10px, 0);
       opacity: 0;
     }
-    #{$iphone_animation} {
+    [data-frame="#{$iphone_animation}"] {
       opacity: 1;
       transform#{"[swing]"}: translate(0px, 0);
     }
   }
 
-  @-st-keyframes s3-bg1 {
-    #{$iphone_animation - 20} {
+  @-st-frames s3-bg1 {
+    [data-frame="#{$iphone_animation - 20}"] {
       display: none;
     }
-    #{$iphone_animation} {
+    [data-frame="#{$iphone_animation}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i1 {
-    #{$iphone_animation} {
+  @-st-frames s3-i1 {
+    [data-frame="#{$iphone_animation}"] {
       display: none;
     }
-    #{$iphone_animation + 20} {
+    [data-frame="#{$iphone_animation + 20}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i2 {
-    #{$iphone_animation + 10} {
+  @-st-frames s3-i2 {
+    [data-frame="#{$iphone_animation + 10}"] {
       display: none;
     }
-    #{$iphone_animation + 30} {
+    [data-frame="#{$iphone_animation + 30}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i3 {
-    #{$iphone_animation + 20} {
+  @-st-frames s3-i3 {
+    [data-frame="#{$iphone_animation + 20}"] {
       display: none;
     }
-    #{$iphone_animation + 40} {
+    [data-frame="#{$iphone_animation + 40}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i4 {
-    #{$iphone_animation + 30} {
+  @-st-frames s3-i4 {
+    [data-frame="#{$iphone_animation + 30}"] {
       display: none;
     }
-    #{$iphone_animation + 50} {
+    [data-frame="#{$iphone_animation + 50}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i5 {
-    #{$iphone_animation + 40} {
+  @-st-frames s3-i5 {
+    [data-frame="#{$iphone_animation + 40}"] {
       display: none;
     }
-    #{$iphone_animation + 60} {
+    [data-frame="#{$iphone_animation + 60}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i6 {
-    #{$iphone_animation + 50} {
+  @-st-frames s3-i6 {
+    [data-frame="#{$iphone_animation + 50}"] {
       display: none;
     }
-    #{$iphone_animation + 70} {
+    [data-frame="#{$iphone_animation + 70}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i7 {
-    #{$iphone_animation + 60} {
+  @-st-frames s3-i7 {
+    [data-frame="#{$iphone_animation + 60}"] {
       display: none;
     }
-    #{$iphone_animation + 80} {
+    [data-frame="#{$iphone_animation + 80}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i8 {
-    #{$iphone_animation + 70} {
+  @-st-frames s3-i8 {
+    [data-frame="#{$iphone_animation + 70}"] {
       display: none;
     }
-    #{$iphone_animation + 90} {
+    [data-frame="#{$iphone_animation + 90}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i9 {
-    #{$iphone_animation + 80} {
+  @-st-frames s3-i9 {
+    [data-frame="#{$iphone_animation + 80}"] {
       display: none;
     }
-    #{$iphone_animation + 100} {
+    [data-frame="#{$iphone_animation + 100}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i10 {
-    #{$iphone_animation + 110} {
+  @-st-frames s3-i10 {
+    [data-frame="#{$iphone_animation + 110}"] {
       display: none;
     }
-    #{$iphone_animation + 130} {
+    [data-frame="#{$iphone_animation + 130}"] {
       display: inline;
     }
   }
 
-  @-st-keyframes s3-i11 {
-    #{$iphone_animation + 120} {
+  @-st-frames s3-i11 {
+    [data-frame="#{$iphone_animation + 120}"] {
       display: none;
     }
-    #{$iphone_animation + 140} {
+    [data-frame="#{$iphone_animation + 140}"] {
       display: inline;
     }
   }
@@ -787,56 +787,56 @@
   }
   $appunti_animation: 425 + $scene_03_begin;
 
-  @-st-keyframes appunti {
-    #{$appunti_animation - 50} {
+  @-st-frames appunti {
+    [data-frame="#{$appunti_animation - 50}"] {
       transform#{"[swing]"}: translate(0, 510px);
     }
-    #{$appunti_animation} {
+    [data-frame="#{$appunti_animation}"] {
       transform#{"[swing]"}: translate(0, 0);
     }
   }
 
-  @-st-keyframes ag1 {
-    #{$appunti_animation} {
+  @-st-frames ag1 {
+    [data-frame="#{$appunti_animation}"] {
       opacity: 0;
     }
-    #{$appunti_animation + 20} {
+    [data-frame="#{$appunti_animation + 20}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes ag2 {
-    #{$appunti_animation + 20} {
+  @-st-frames ag2 {
+    [data-frame="#{$appunti_animation + 20}"] {
       opacity: 0;
     }
-    #{$appunti_animation + 50} {
+    [data-frame="#{$appunti_animation + 50}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes ag3 {
-    #{$appunti_animation + 30} {
+  @-st-frames ag3 {
+    [data-frame="#{$appunti_animation + 30}"] {
       opacity: 0;
     }
-    #{$appunti_animation + 50} {
+    [data-frame="#{$appunti_animation + 50}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes ag4 {
-    #{$appunti_animation + 40} {
+  @-st-frames ag4 {
+    [data-frame="#{$appunti_animation + 40}"] {
       opacity: 0;
     }
-    #{$appunti_animation + 60} {
+    [data-frame="#{$appunti_animation + 60}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes ag5 {
-    #{$appunti_animation + 50} {
+  @-st-frames ag5 {
+    [data-frame="#{$appunti_animation + 50}"] {
       opacity: 0;
     }
-    #{$appunti_animation + 70} {
+    [data-frame="#{$appunti_animation + 70}"] {
       opacity: 1;
     }
   }
@@ -882,92 +882,92 @@
   }
   $diagramma1_animation: 570 + $scene_03_begin;
 
-  @-st-keyframes diagramma1 {
-    #{$diagramma1_animation - 50} {
+  @-st-frames diagramma1 {
+    [data-frame="#{$diagramma1_animation - 50}"] {
       transform#{"[swing]"}: translate(0, 610px);
     }
-    #{$diagramma1_animation} {
+    [data-frame="#{$diagramma1_animation}"] {
       transform#{"[swing]"}: translate(0, 0);
     }
   }
 
-  @-st-keyframes dg1 {
-    #{$diagramma1_animation + 20} {
+  @-st-frames dg1 {
+    [data-frame="#{$diagramma1_animation + 20}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 40} {
+    [data-frame="#{$diagramma1_animation + 40}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg2 {
-    #{$diagramma1_animation + 30} {
+  @-st-frames dg2 {
+    [data-frame="#{$diagramma1_animation + 30}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 50} {
+    [data-frame="#{$diagramma1_animation + 50}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg3 {
-    #{$diagramma1_animation + 40} {
+  @-st-frames dg3 {
+    [data-frame="#{$diagramma1_animation + 40}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 60} {
+    [data-frame="#{$diagramma1_animation + 60}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg4 {
-    #{$diagramma1_animation + 50} {
+  @-st-frames dg4 {
+    [data-frame="#{$diagramma1_animation + 50}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 70} {
+    [data-frame="#{$diagramma1_animation + 70}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg5 {
-    #{$diagramma1_animation + 60} {
+  @-st-frames dg5 {
+    [data-frame="#{$diagramma1_animation + 60}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 80} {
+    [data-frame="#{$diagramma1_animation + 80}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg6 {
-    #{$diagramma1_animation + 70} {
+  @-st-frames dg6 {
+    [data-frame="#{$diagramma1_animation + 70}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 90} {
+    [data-frame="#{$diagramma1_animation + 90}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg7 {
-    #{$diagramma1_animation + 80} {
+  @-st-frames dg7 {
+    [data-frame="#{$diagramma1_animation + 80}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 100} {
+    [data-frame="#{$diagramma1_animation + 100}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg8 {
-    #{$diagramma1_animation + 90} {
+  @-st-frames dg8 {
+    [data-frame="#{$diagramma1_animation + 90}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 110} {
+    [data-frame="#{$diagramma1_animation + 110}"] {
       opacity: 1;
     }
   }
 
-  @-st-keyframes dg9 {
-    #{$diagramma1_animation + 100} {
+  @-st-frames dg9 {
+    [data-frame="#{$diagramma1_animation + 100}"] {
       opacity: 0;
     }
-    #{$diagramma1_animation + 120} {
+    [data-frame="#{$diagramma1_animation + 120}"] {
       opacity: 1;
     }
   }
@@ -976,11 +976,11 @@
     -st-animation-name: fullstack;
   }
 
-  @-st-keyframes fullstack {
-    #{$start + 700} {
+  @-st-frames fullstack {
+    [data-frame="#{$start + 700}"] {
       opacity: 0;
     }
-    #{$start + 720} {
+    [data-frame="#{$start + 720}"] {
       opacity: 1;
     }
   }

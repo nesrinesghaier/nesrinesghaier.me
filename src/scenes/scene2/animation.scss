@@ -16,8 +16,8 @@
     -st-animation-name: wire2;
   }
 
-  @-st-keyframes wire2 {
-    #{$start - 170} {
+  @-st-frames wire2 {
+    [data-frame="#{$start - 170}"] {
       stroke-dashoffset: 6000;
     }
 
@@ -25,7 +25,7 @@
     //  stroke-dashoffset: 2100;
     //}
 
-    #{$start + 2320} {
+    [data-frame="#{$start + 2320}"] {
       stroke-dashoffset: 0;
     }
   }
@@ -34,12 +34,12 @@
     -st-animation-name: text1;
   }
 
-  @-st-keyframes text1 {
-    #{$start - 100} {
+  @-st-frames text1 {
+    [data-frame="#{$start - 100}"] {
       opacity: 0;
     }
 
-    #{$start - 50} {
+    [data-frame="#{$start - 50}"] {
       opacity: 1;
     }
   }
@@ -48,21 +48,21 @@
     -st-animation-name: text2;
   }
 
-  @-st-keyframes text2 {
+  @-st-frames text2 {
 
-    #{$start - 50} {
+    [data-frame="#{$start - 50}"] {
       opacity: 0;
     }
 
-    #{$start } {
+    [data-frame="#{$start }"] {
       opacity: 1;
     }
 
-    #{$start + 150} {
+    [data-frame="#{$start + 150}"] {
       opacity: 1;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       opacity: 0;
     }
   }
@@ -71,13 +71,13 @@
     -st-animation-name: text3;
   }
 
-  @-st-keyframes text3 {
+  @-st-frames text3 {
 
-    #{$start + 150} {
+    [data-frame="#{$start + 150}"] {
       opacity: 0;
     }
 
-    #{$start + 250} {
+    [data-frame="#{$start + 250}"] {
       opacity: 1;
       //fill: rgb(245, 236, 217);
     }
@@ -87,13 +87,13 @@
     -st-animation-name: london;
   }
 
-  @-st-keyframes london {
+  @-st-frames london {
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform: translate(-250px, 600px);
     }
 
-    #{$start + 400} {
+    [data-frame="#{$start + 400}"] {
       transform: translate(0px, 0px);
     }
   }
@@ -102,13 +102,13 @@
     -st-animation-name: bus1;
   }
 
-  @-st-keyframes bus1 {
+  @-st-frames bus1 {
 
-    #{$start + 300} {
+    [data-frame="#{$start + 300}"] {
       transform: translate(400px, 275px) scale(0.12);
     }
 
-    #{$start + 1200} {
+    [data-frame="#{$start + 1200}"] {
       transform: translate(1000px, 275px) scale(0.12);
     }
   }
@@ -117,13 +117,13 @@
     -st-animation-name: bus2;
   }
 
-  @-st-keyframes bus2 {
+  @-st-frames bus2 {
 
-    #{$start + 300} {
+    [data-frame="#{$start + 300}"] {
       transform: translate(0, 0);
     }
 
-    #{$start + 1200} {
+    [data-frame="#{$start + 1200}"] {
       transform: translate(300px, 0px);
     }
   }
@@ -132,17 +132,17 @@
     -st-animation-name: planebig;
   }
 
-  @-st-keyframes planebig {
+  @-st-frames planebig {
 
-    #{$start + 100} {
+    [data-frame="#{$start + 100}"] {
       transform: translate(50px, 10px);
     }
 
-    #{$start + 400} {
+    [data-frame="#{$start + 400}"] {
       transform: translate(3000px, 200px);
     }
 
-    #{$start + 600} {
+    [data-frame="#{$start + 600}"] {
       transform: translate(8000px, 400px);
     }
   }
@@ -151,24 +151,24 @@
     -st-animation-name: clouds;
   }
 
-  @-st-keyframes clouds {
+  @-st-frames clouds {
 
-    #{$start - 150} {
+    [data-frame="#{$start - 150}"] {
       transform: translate(-100px, 0px);
       opacity: 0;
     }
 
-    #{$start - 100} {
+    [data-frame="#{$start - 100}"] {
       transform: translate(-50px, 0);
       opacity: 1;
     }
 
-    #{$start + 700} {
+    [data-frame="#{$start + 700}"] {
       transform: translate(0px, 0);
       opacity: 1;
     }
 
-    #{$start + 1100} {
+    [data-frame="#{$start + 1100}"] {
       opacity: 1;
       transform: translate(200px, 0);
     }
@@ -178,13 +178,13 @@
     -st-animation-name: plane;
   }
 
-  @-st-keyframes plane {
-    #{$start - 150} {
+  @-st-frames plane {
+    [data-frame="#{$start - 150}"] {
       transform: translate(-2600px, 0px);
       opacity: 1;
     }
 
-    #{$start + 400} {
+    [data-frame="#{$start + 400}"] {
       transform: translate(2600px, -600px);
       opacity: 1;
     }
@@ -194,23 +194,23 @@
     -st-animation-name: mountains;
   }
 
-  @-st-keyframes mountains {
-    #{$start - 50} {
+  @-st-frames mountains {
+    [data-frame="#{$start - 50}"] {
       transform: translate(-200px, 0px);
       opacity: 0;
     }
 
-    #{$start} {
+    [data-frame="#{$start}"] {
       transform: translate(0px, 0px);
       opacity: 1;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform: translate(50px, 0px);
       opacity: 1;
     }
 
-    #{$start + 250} {
+    [data-frame="#{$start + 250}"] {
       transform: translate(-200px, 0px);
       opacity: 0;
     }
@@ -220,23 +220,23 @@
     -st-animation-name: torre;
   }
 
-  @-st-keyframes torre {
-    #{$start - 100} {
+  @-st-frames torre {
+    [data-frame="#{$start - 100}"] {
       transform: translate(-1200px, 0px) scale(1);
       opacity: 1;
     }
 
-    #{$start - 50} {
+    [data-frame="#{$start - 50}"] {
       transform: translate(-10px, 10px) scale(0.7);
       opacity: 1;
     }
 
-    #{$start + 250} {
+    [data-frame="#{$start + 250}"] {
       transform: translate(-10px, 10px) scale(0.7);
       opacity: 1;
     }
 
-    #{$start + 300} {
+    [data-frame="#{$start + 300}"] {
       transform: translate(-300px, 0px) scale(1);
       opacity: 0;
     }

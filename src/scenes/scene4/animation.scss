@@ -11,11 +11,11 @@
     -st-animation-name: wire4;
   }
 
-  @-st-keyframes wire4 {
-    #{$start3 - 205} {
+  @-st-frames wire4 {
+    [data-frame="#{$start3 - 205}"] {
       stroke-dashoffset: 6000;
     }
-    #{$start3 + 1350} {
+    [data-frame="#{$start3 + 1350}"] {
       stroke-dashoffset: 0;
     }
   }
@@ -24,11 +24,11 @@
     -st-animation-name: interested;
   }
 
-  @-st-keyframes interested {
-    #{$start3 + 350} {
+  @-st-frames interested {
+    [data-frame="#{$start3 + 350}"] {
       opacity: 0;
     }
-    #{$start3 + 400} {
+    [data-frame="#{$start3 + 400}"] {
       opacity: 1;
     }
   }
@@ -37,11 +37,11 @@
     -st-animation-name: lalineag;
   }
 
-  @-st-keyframes lalineag {
-    #{$start3 + 300} {
+  @-st-frames lalineag {
+    [data-frame="#{$start3 + 300}"] {
       opacity: 0;
     }
-    #{$start3 + 350} {
+    [data-frame="#{$start3 + 350}"] {
       opacity: 1;
     }
   }
@@ -50,11 +50,11 @@
     -st-animation-name: list;
   }
 
-  @-st-keyframes list {
-    #{$start3 + 100} {
+  @-st-frames list {
+    [data-frame="#{$start3 + 100}"] {
       transform: translate(0px, 0px) scale(1);
     }
-    #{$start3 + 150} {
+    [data-frame="#{$start3 + 150}"] {
       transform: translate(-200px, -230px) scale(2);
     }
   }
@@ -63,12 +63,12 @@
     -st-animation-name: listshadow;
   }
 
-  @-st-keyframes listshadow {
-    #{$start3 + 100} {
+  @-st-frames listshadow {
+    [data-frame="#{$start3 + 100}"] {
       transform: translate(0px, 0px) scale(1);
       opacity: 1;
     }
-    #{$start3 + 120} {
+    [data-frame="#{$start3 + 120}"] {
       transform: translate(-60px, -3px) scale(1.1);
       opacity: 0;
     }
@@ -78,11 +78,11 @@
     -st-animation-name: list2;
   }
 
-  @-st-keyframes list2 {
-    #{$start3 + 300} {
+  @-st-frames list2 {
+    [data-frame="#{$start3 + 300}"] {
       transform: translate(0px, 0px) scale(1);
     }
-    #{$start3 + 350} {
+    [data-frame="#{$start3 + 350}"] {
       transform: translate(-1000px, -900px) scale(2.5);
     }
   }
@@ -91,12 +91,12 @@
     -st-animation-name: list2shadow;
   }
 
-  @-st-keyframes list2shadow {
-    #{$start3 + 300} {
+  @-st-frames list2shadow {
+    [data-frame="#{$start3 + 300}"] {
       transform: translate(0px, 0px) scale(1);
       opacity: 1;
     }
-    #{$start3 + 320} {
+    [data-frame="#{$start3 + 320}"] {
       transform: translate(-60px, -3px) scale(1.1);
       opacity: 0;
     }
@@ -107,12 +107,12 @@
     -st-animation-name: book1;
   }
 
-  @-st-keyframes book1 {
-    #{$start3 - 50} {
+  @-st-frames book1 {
+    [data-frame="#{$start3 - 50}"] {
       opacity: 0;
       transform: translate(-20px, -20px);
     }
-    #{$start3} {
+    [data-frame="#{$start3}"] {
       opacity: 1;
       transform: translate(0px, 0px);
     }
@@ -123,12 +123,12 @@
     -st-animation-name: book3;
   }
 
-  @-st-keyframes book3 {
-    #{$start3 - 100} {
+  @-st-frames book3 {
+    [data-frame="#{$start3 - 100}"] {
       opacity: 0;
       transform: translate(-20px, -20px) scale(0.3) rotate(12);
     }
-    #{$start3 - 50} {
+    [data-frame="#{$start3 - 50}"] {
       opacity: 1;
       transform: translate(0px, 0px) scale(0.3) rotate(12);
     }
@@ -138,12 +138,12 @@
     -st-animation-name: notebook1;
   }
 
-  @-st-keyframes notebook1 {
-    #{$start3} {
+  @-st-frames notebook1 {
+    [data-frame="#{$start3}"] {
       opacity: 0;
       transform: translate(30, -210) rotate(-3);
     }
-    #{$start3 + 50} {
+    [data-frame="#{$start3 + 50}"] {
       opacity: 1;
       transform: translate(50, -190.8734) rotate(-3);
     }
@@ -154,12 +154,12 @@
     -st-animation-name: book2;
   }
 
-  @-st-keyframes book2 {
-    #{$start3 + 50} {
+  @-st-frames book2 {
+    [data-frame="#{$start3 + 50}"] {
       opacity: 0;
       transform: translate(-20px, -20px);
     }
-    #{$start3 + 100} {
+    [data-frame="#{$start3 + 100}"] {
       opacity: 1;
       transform: translate(0px, 0px);
     }
@@ -169,12 +169,12 @@
     -st-animation-name: book4;
   }
 
-  @-st-keyframes book4 {
-    #{$start3 + 100} {
+  @-st-frames book4 {
+    [data-frame="#{$start3 + 100}"] {
       opacity: 0;
       transform: translate(1000px, 800px) rotate(-6.4) scale(0.49);
     }
-    #{$start3 + 150} {
+    [data-frame="#{$start3 + 150}"] {
       opacity: 1;
       transform: translate(1000px, 600px) rotate(-6.4) scale(0.49);
     }
@@ -188,23 +188,23 @@
     -st-animation-name: drawing;
   }
 
-  @-st-keyframes book5 {
-    #{$start3 + 250} {
+  @-st-frames book5 {
+    [data-frame="#{$start3 + 250}"] {
       opacity: 0;
       transform: translate(-20px, -20px);
     }
-    #{$start3 + 300} {
+    [data-frame="#{$start3 + 300}"] {
       opacity: 1;
       transform: translate(0px, 0px);
     }
   }
 
-  @-st-keyframes drawing {
-    #{$start3 + 200} {
+  @-st-frames drawing {
+    [data-frame="#{$start3 + 200}"] {
       opacity: 0;
       transform: translate(450, 0) scale(0.4);
     }
-    #{$start3 + 250} {
+    [data-frame="#{$start3 + 250}"] {
       opacity: 1;
       transform: translate(500, 260) scale(0.4);
     }

@@ -33,98 +33,98 @@ $scene_06_end: $scene_06_begin + $scene_06_duration;
 
 #scene1 { -st-animation-name: scene1; }
 
-@-st-keyframes scene1 {
-  #{$scene_01_begin} {
+@-st-frames scene1 {
+  [data-frame="#{$scene_01_begin}"] {
     top: 0%;
   }
-  #{$scene_01_end - 500} {
+  [data-frame="#{$scene_01_end - 500}"] {
     top: 0%;
   }
-  #{$scene_01_end} {
+  [data-frame="#{$scene_01_end}"] {
     top: -100%;
   }
 }
 
 #scene2 { -st-animation-name: scene2; }
 
-@-st-keyframes scene2 {
-  #{$scene_02_begin - 500} {
+@-st-frames scene2 {
+  [data-frame="#{$scene_02_begin - 500}"] {
     top: 100%;
   }
-  #{$scene_02_begin} {
+  [data-frame="#{$scene_02_begin}"] {
     top: 0%;
   }
-  #{$scene_02_end - 500} {
+  [data-frame="#{$scene_02_end - 500}"] {
     top: 0%;
   }
-  #{$scene_02_end} {
+  [data-frame="#{$scene_02_end}"] {
     top: -100%;
   }
 }
 
 #scene3 { -st-animation-name: scene3; }
 
-@-st-keyframes scene3 {
-  #{$scene_03_begin - 500} {
+@-st-frames scene3 {
+  [data-frame="#{$scene_03_begin - 500}"] {
     top: 100%;
   }
-  #{$scene_03_begin} {
+  [data-frame="#{$scene_03_begin}"] {
     top: 0%;
   }
-  #{$scene_03_end - 500} {
+  [data-frame="#{$scene_03_end - 500}"] {
     top: 0%;
   }
-  #{$scene_03_end} {
+  [data-frame="#{$scene_03_end}"] {
     top: -100%;
   }
 }
 
 #scene4 { -st-animation-name: scene4; }
 
-@-st-keyframes scene4 {
-  #{$scene_04_begin - 500} {
+@-st-frames scene4 {
+  [data-frame="#{$scene_04_begin - 500}"] {
     top: 100%;
   }
-  #{$scene_04_begin} {
+  [data-frame="#{$scene_04_begin}"] {
     top: 0%;
   }
-  #{$scene_04_end - 500} {
+  [data-frame="#{$scene_04_end - 500}"] {
     top: 0%;
   }
-  #{$scene_04_end} {
+  [data-frame="#{$scene_04_end}"] {
     top: -100%;
   }
 }
 
 #scene5 { -st-animation-name: scene5; }
 
-@-st-keyframes scene5 {
+@-st-frames scene5 {
 
-  #{$scene_05_begin - 500} {
+  [data-frame="#{$scene_05_begin - 500}"] {
     top: 100%;
   }
-  #{$scene_05_begin} {
+  [data-frame="#{$scene_05_begin}"] {
     top: 0%;
   }
-  #{$scene_05_end - 500} {
+  [data-frame="#{$scene_05_end - 500}"] {
     top: 0%;
   }
-  #{$scene_05_end} {
+  [data-frame="#{$scene_05_end}"] {
     top: -100%;
   }
 }
 
 #scene6 { -st-animation-name: scene6; }
 
-@-st-keyframes scene6 {
+@-st-frames scene6 {
 
-  #{$scene_06_begin - 500} {
+  [data-frame="#{$scene_06_begin - 500}"] {
     top: 100%;
   }
-  #{$scene_06_begin} {
+  [data-frame="#{$scene_06_begin}"] {
     top: 0%;
   }
-  #{$scene_06_end - 500} {
+  [data-frame="#{$scene_06_end - 500}"] {
     top: 0%;
   }
 }

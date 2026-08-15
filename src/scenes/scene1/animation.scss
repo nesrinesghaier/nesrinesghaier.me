@@ -16,12 +16,12 @@
     -st-animation-name: wire1;
   }
 
-  @-st-keyframes wire1 {
-    #{$start + 100} {
+  @-st-frames wire1 {
+    [data-frame="#{$start + 100}"] {
       stroke-dashoffset: 6000;
     }
 
-    #{$start + 2464} {
+    [data-frame="#{$start + 2464}"] {
       stroke-dashoffset: 0;
     }
   }
@@ -51,20 +51,20 @@
     opacity: 0;
   }
 
-  @-st-keyframes scrollthing {
-    #{$scene_01_begin} {
+  @-st-frames scrollthing {
+    [data-frame="#{$scene_01_begin}"] {
       opacity: 1;
       transition-delay: 2000ms;
       transition-duration: 500ms;
     }
 
-    #{$scene_01_begin + 5} {
+    [data-frame="#{$scene_01_begin + 5}"] {
       opacity: 1;
       transition-delay: 0;
       transition-duration: 0;
     }
 
-    #{$scene_01_begin + 30} {
+    [data-frame="#{$scene_01_begin + 30}"] {
       opacity: 0;
       transition-delay: 0;
       transition-duration: 0;
@@ -75,12 +75,12 @@
     -st-animation-name: hellohello;
   }
 
-  @-st-keyframes hellohello {
-    #{$start} {
+  @-st-frames hellohello {
+    [data-frame="#{$start}"] {
       transform#{"[swing]"}: translate(355px, -30px);
     }
 
-    #{$start + 100} {
+    [data-frame="#{$start + 100}"] {
       transform#{"[swing]"}: translate(0px, 0px);
     }
   }
@@ -89,12 +89,12 @@
     -st-animation-name: subtitle;
   }
 
-  @-st-keyframes subtitle {
-    #{$start} {
+  @-st-frames subtitle {
+    [data-frame="#{$start}"] {
       opacity: 1;
     }
 
-    #{$start + 50} {
+    [data-frame="#{$start + 50}"] {
       opacity: 0;
     }
   }
@@ -103,13 +103,13 @@
     -st-animation-name: intro1;
   }
 
-  @-st-keyframes intro1 {
-    #{$start + 100} {
+  @-st-frames intro1 {
+    [data-frame="#{$start + 100}"] {
       transform#{"[swing]"}: translate(0, -10px);
       opacity: 0;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform#{"[swing]"}: translate(0, 0px);
       opacity: 1;
     }
@@ -124,18 +124,18 @@
     fill: rgba(214, 219, 220, 0.8) !important;
   }
 
-  @-st-keyframes intro2 {
-    #{$start} {
+  @-st-frames intro2 {
+    [data-frame="#{$start}"] {
       pointer-events: none;
     }
 
-    #{$start + 120} {
+    [data-frame="#{$start + 120}"] {
       pointer-events: auto;
       transform#{"[swing]"}: translate(0, -10px);
       opacity: 0;
     }
 
-    #{$start + 170} {
+    [data-frame="#{$start + 170}"] {
       transform#{"[swing]"}: translate(0, 0px);
       opacity: 1;
     }
@@ -145,13 +145,13 @@
     -st-animation-name: intro3;
   }
 
-  @-st-keyframes intro3 {
-    #{$start + 230} {
+  @-st-frames intro3 {
+    [data-frame="#{$start + 230}"] {
       transform#{"[swing]"}: translate(0, -10px);
       opacity: 0;
     }
 
-    #{$start + 300} {
+    [data-frame="#{$start + 300}"] {
       transform#{"[swing]"}: translate(0, 0px);
       opacity: 1;
     }
@@ -161,13 +161,13 @@
     -st-animation-name: macbook;
   }
 
-  @-st-keyframes macbook {
-    #{$start + 50} {
+  @-st-frames macbook {
+    [data-frame="#{$start + 50}"] {
       transform#{"[swing]"}: translate(0, -500px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 150} {
+    [data-frame="#{$start + 150}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -177,13 +177,13 @@
     -st-animation-name: mouse;
   }
 
-  @-st-keyframes mouse {
-    #{$start + 100} {
+  @-st-frames mouse {
+    [data-frame="#{$start + 100}"] {
       transform#{"[swing]"}: translate(200px, 0px) rotate(-30deg);
       opacity: 0;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -193,13 +193,13 @@
     -st-animation-name: schema;
   }
 
-  @-st-keyframes schema {
-    #{$start + 100} {
+  @-st-frames schema {
+    [data-frame="#{$start + 100}"] {
       transform#{"[swing]"}: translate(0, -200px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -209,13 +209,13 @@
     -st-animation-name: bevanda;
   }
 
-  @-st-keyframes bevanda {
-    #{$start + 150} {
+  @-st-frames bevanda {
+    [data-frame="#{$start + 150}"] {
       transform#{"[swing]"}: translate(0, -200px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 250} {
+    [data-frame="#{$start + 250}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -225,13 +225,13 @@
     -st-animation-name: matita1;
   }
 
-  @-st-keyframes matita1 {
-    #{$start + 25} {
+  @-st-frames matita1 {
+    [data-frame="#{$start + 25}"] {
       transform#{"[swing]"}: translate(0, -200px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 125} {
+    [data-frame="#{$start + 125}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -241,13 +241,13 @@
     -st-animation-name: cancelleria1;
   }
 
-  @-st-keyframes cancelleria1 {
-    #{$start + 125} {
+  @-st-frames cancelleria1 {
+    [data-frame="#{$start + 125}"] {
       transform#{"[swing]"}: translate(0, -200px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 225} {
+    [data-frame="#{$start + 225}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -257,13 +257,13 @@
     -st-animation-name: righello;
   }
 
-  @-st-keyframes righello {
-    #{$start + 175} {
+  @-st-frames righello {
+    [data-frame="#{$start + 175}"] {
       transform#{"[swing]"}: translate(0, -200px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 275} {
+    [data-frame="#{$start + 275}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -273,13 +273,13 @@
     -st-animation-name: gomma;
   }
 
-  @-st-keyframes gomma {
-    #{$start + 120} {
+  @-st-frames gomma {
+    [data-frame="#{$start + 120}"] {
       transform#{"[swing]"}: translate(0, -200px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 220} {
+    [data-frame="#{$start + 220}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -289,13 +289,13 @@
     -st-animation-name: iphone2;
   }
 
-  @-st-keyframes iphone2 {
-    #{$start + 150} {
+  @-st-frames iphone2 {
+    [data-frame="#{$start + 150}"] {
       transform#{"[swing]"}: translate(-200px, 0) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -305,13 +305,13 @@
     -st-animation-name: occhiali;
   }
 
-  @-st-keyframes occhiali {
-    #{$start + 270} {
+  @-st-frames occhiali {
+    [data-frame="#{$start + 270}"] {
       transform#{"[swing]"}: translate(100px, -300px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 310} {
+    [data-frame="#{$start + 310}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -321,18 +321,18 @@
     -st-animation-name: foglio1;
   }
 
-  @-st-keyframes foglio1 {
-    #{$start} {
+  @-st-frames foglio1 {
+    [data-frame="#{$start}"] {
       transform#{"[swing]"}: translate(0, -500px) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 75} {
+    [data-frame="#{$start + 75}"] {
       transform#{"[swing]"}: translate(0, -500px) rotate(-10deg);
       opacity: 1;
     }
 
-    #{$start + 175} {
+    [data-frame="#{$start + 175}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -342,13 +342,13 @@
     -st-animation-name: foglio2;
   }
 
-  @-st-keyframes foglio2 {
-    #{$start + 50} {
+  @-st-frames foglio2 {
+    [data-frame="#{$start + 50}"] {
       transform#{"[swing]"}: translate(-200px, 0) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 150} {
+    [data-frame="#{$start + 150}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
@@ -358,13 +358,13 @@
     -st-animation-name: calcolatrice;
   }
 
-  @-st-keyframes calcolatrice {
-    #{$start} {
+  @-st-frames calcolatrice {
+    [data-frame="#{$start}"] {
       transform#{"[swing]"}: translate(-500px, 0) rotate(-10deg);
       opacity: 0;
     }
 
-    #{$start + 200} {
+    [data-frame="#{$start + 200}"] {
       transform#{"[swing]"}: translate(0, 0) rotate(0deg);
       opacity: 1;
     }

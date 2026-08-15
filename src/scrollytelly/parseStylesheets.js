@@ -4,14 +4,16 @@ export default () => {
   let contents = [];
 
   // Finds the declaration of an animation block.
-  const rxAnimation = /@-st-keyframes\s+([\w-]+)/g;
+  const rxAnimation = /@-st-frames\s+([\w-]+)/g;
 
   // Finds the block of keyframes inside an animation block.
   // http://regexpal.com/ saves your ass with stuff like this.
   const rxKeyframes = /\s*\{\s*((?:[^{]+\{[^}]*\}\s*)+?)\s*\}/g;
 
   // Gets a single keyframe and the properties inside.
-  const rxSingleKeyframe = /([\w-]+)\s*\{([^}]+)\}/g;
+  // Keyframe selectors are wrapped as [data-frame="..."] because Dart Sass
+  // rejects bare numeric interpolations as invalid CSS selectors.
+  const rxSingleKeyframe = /\[data-frame="([\w-]+)"\]\s*\{([^}]+)\}/g;
 
   // Optional keyframe name prefix to work around SASS (>3.4) issues
   const keyframeNameOptionalPrefix = "scrollyTelly-";
