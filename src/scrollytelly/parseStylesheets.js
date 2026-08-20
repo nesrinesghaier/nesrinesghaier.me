@@ -156,12 +156,13 @@ export default () => {
   };
 
   const kickstart = () => {
-    const stylesheets = document.querySelectorAll("link, style");
+    const stylesheets = document.querySelectorAll('link[rel="stylesheet"], style');
 
-    // Iterate over all stylesheets, embedded and remote.
-    contents = Object.values(stylesheets)
-      .filter((sheet) => sheet.getAttribute("data-st-stylesheet") !== null)
-      .map((sheet) => fetchRemote(sheet.href));
+    // Iterate over all stylesheets, embedded (dev-mode <style> tags) and
+    // remote (built <link> tags).
+    contents = Object.values(stylesheets).map((sheet) =>
+      sheet.tagName === "STYLE" ? sheet.textContent : fetchRemote(sheet.href)
+    );
 
     // We take the stylesheets in reverse order.
     // This is needed to ensure correct order of stylesheets and inline styles.
@@ -182,5 +183,5 @@ export default () => {
     applyAttributeSetters(attributes);
   };
 
-  kickstart(document.querySelectorAll("link, style"));
+  kickstart();
 };

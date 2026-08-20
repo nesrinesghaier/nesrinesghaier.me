@@ -1,8 +1,8 @@
 import anime from "animejs";
 import { knuthShuffle } from "knuth-shuffle";
 import { debounce, throttle } from "throttle-debounce";
-import sceneSvg from "./scene.svg";
-import sceneHtml from "./scene.html";
+import sceneSvg from "./scene.svg?st-inline";
+import sceneHtml from "./scene.html?raw";
 import keywordArray from "./keywords";
 
 import { createElementWithAttrs } from "../../site/utilities";

@@ -1,5 +1,5 @@
-import sceneSvg from "./scene.svg";
-import sceneHtml from "./scene.html";
+import sceneSvg from "./scene.svg?st-inline";
+import sceneHtml from "./scene.html?raw";
 
 export default {
   init() {
