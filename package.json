@@ -50,6 +50,6 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^6.0.3",
     "stylelint-scss": "^5.2.1",
-    "vite": "^8.2.1"
+    "vite": "^8.2.4"
   }
 }
